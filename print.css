@@ -1,0 +1,24 @@
+/* @media print {
+    body {
+        font-family: 'qRoboto', sans-serif !important;
+    }
+} */
+@media print {
+    .outer-conteiner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .photo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .photo img {
+      margin: 10px;
+      max-width: 100%;
+      max-height: 100px;
+    }
+    
+  }
+  
